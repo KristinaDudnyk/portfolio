@@ -1,11 +1,16 @@
-import transition from "../transition";
+// import transition from "../transition";
+import Projects from "./Projects";
+import About from "./About";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
-    <div className="nav">
-      <h1>Home</h1>
-    </div>
+    <>
+      <About />
+      <Projects />
+      <Contact />
+    </>
   );
 };
 
-export default transition(Home);
+export default Home;

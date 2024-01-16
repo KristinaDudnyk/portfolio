@@ -3,14 +3,14 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
-import About from "./components/About";
-import Contact from "./components/Contact";
+// import About from "./components/About";
+// import Contact from "./components/Contact";
 import Loading from "./components/Loading";
-import { useLocation, Routes, Route } from "react-router-dom";
+// import { useLocation, Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
 const App = () => {
-  const location = useLocation();
+  // const location = useLocation();
 
   const [isLoading, setIsLoading] = useState(true);
 
@@ -29,13 +29,10 @@ const App = () => {
 
   return (
     <>
-      <NavBar />
       <AnimatePresence mode="wait">{isLoading && <Loading />}</AnimatePresence>
-      <Routes location={location} key={location.pathname}>
-        <Route index element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <NavBar />
+
+      <Home />
     </>
   );
 };

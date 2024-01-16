@@ -1,8 +1,8 @@
-import transition from "../transition";
+// import transition from "../transition";
 
 const About = () => {
   return (
-    <div className="nav">
+    <div className="nav" id="about">
       <h1>Hi there</h1>
       <h1>I'm Kristina Dudnyk</h1>
 
@@ -20,7 +20,9 @@ const About = () => {
   );
 };
 
-export default transition(About);
+export default About;
+
+// export default transition(About);
 //const WrappedHome = transition(Home)
 
 // export default WrappedHome

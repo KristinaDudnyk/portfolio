@@ -1,11 +1,13 @@
-import transition from "../transition";
+// import transition from "../transition";
 
 const Contact = () => {
   return (
-    <div className="nav">
+    <div className="nav" id="contact">
       <h1>Contact</h1>
     </div>
   );
 };
 
-export default transition(Contact);
+export default Contact;
+
+// export default transition(Contact);

@@ -5,23 +5,23 @@ const NavBar = () => {
   return (
     <div className="nav">
       <div className="logo">
-        <Link className="nav-link" to="/">
+        <Link className="nav-link" to="#top">
           Logo
         </Link>
       </div>
       <div className="nav-links">
         <div className="nav-item">
-          <Link className="nav-link" to="/">
-            Home
-          </Link>
-        </div>
-        <div className="nav-item">
-          <Link className="nav-link" to="/about">
+          <Link className="nav-link" to="#about">
             About
           </Link>
         </div>
         <div className="nav-item">
-          <Link className="nav-link" to="/contact">
+          <Link className="nav-link" to="#projects">
+            Projects
+          </Link>
+        </div>
+        <div className="nav-item">
+          <Link className="nav-link" to="#contact">
             Contact
           </Link>
         </div>
