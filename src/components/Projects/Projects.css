@@ -70,7 +70,7 @@
   /* grid position */
   align-self: end;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 1%;
 }
 
