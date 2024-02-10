@@ -1,113 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --primary: #6b70ff;
+  --primary-hover: #333aff;
+
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Urbanist", system-ui, sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: black;
   text-decoration: none;
-}
-
-html,
-body {
-  font-family: "Roslindale Display Condensed";
-  background: #6b70ff;
 }
 
 a {
   text-decoration: none;
-  font-weight: 500;
   color: aliceblue;
+  font-weight: 600;
 }
 
-.nav {
-  width: 100%;
-  display: flex;
-  /* position: relative; */
-  position: fixed;
-  justify-content: flex-end;
-  background-color: rgba(0, 0, 0, 0.771);
-}
-
-.nav-links {
-  display: flex;
-}
-
-.logo,
-.nav-item {
-  margin: 1em;
-  font-weight: 400;
-  font-size: 1.5vw;
-}
-
-.container-about {
-  display: flex;
-  /* padding: 0 50px; */
-  gap: 30px;
-  height: 100%;
-}
-.item-about-1 {
-  background: url("https://images.unsplash.com/photo-1707210019732-d55b1bca658c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 700px;
-}
-
-.item-about-2 {
-  width: 60%;
-  padding: 100px;
-}
-
-.background-for-about {
-  background-color: rgba(0, 0, 0, 0.771);
-  color: aliceblue;
-}
-
-.greeting-h {
-  font-size: 75px;
-}
-
-.about-p {
-  font-size: 30px;
-}
-
-.progects {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-
-.container-project {
-  margin: 10% 10% 0 10%;
-  display: flex;
-  align-items: center;
-  gap: 10%;
-  background-color: aliceblue;
-}
-
-.info-container {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.tools-container {
-  display: flex;
-  justify-content: flex-end;
-  gap: 1%;
-}
-
-.tool-button {
-  display: inline-block;
-  padding: 1% 2.5%;
-  border-radius: 30px;
-  text-align: center;
-  cursor: pointer;
-  font-family: "Open Sans", sans-serif;
-  font-size: 12px;
-  border: none;
-  color: rgb(74, 63, 140);
-  border: 1px solid #6b70ff;
-  background: none;
+p {
+  line-height: 1.7;
 }

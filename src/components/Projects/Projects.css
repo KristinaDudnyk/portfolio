@@ -1,0 +1,89 @@
+.projects {
+  min-height: 100vh;
+  display: grid;
+  justify-items: center;
+  row-gap: 60px;
+  padding: 60px 0;
+  background: var(--primary);
+}
+
+.project-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.project-image-container {
+  position: relative;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0% 0%;
+}
+
+.project-links-container {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.project-link {
+  padding: 5px 10px;
+  background: var(--primary);
+  border-radius: 30px;
+}
+
+.project-link:hover {
+  background: var(--primary-hover);
+}
+
+.project-info-container {
+  display: grid;
+  row-gap: 20px;
+  padding: 20px 40px;
+  background-color: aliceblue;
+}
+
+.project-description-container {
+  align-self: center;
+  display: grid;
+  row-gap: 1rem;
+}
+
+.project-name {
+  color: #825de7;
+}
+
+.project-description {
+  color: hsl(0, 0%, 20%);
+}
+
+.project-tools-container {
+  /* grid position */
+  align-self: end;
+  display: flex;
+  justify-content: end;
+  gap: 1%;
+}
+
+.project-tool-button {
+  display: inline-block;
+  padding: 1% 2.5%;
+  border-radius: 30px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: inherit;
+  border: none;
+  color: rgb(74, 63, 140);
+  border: 1px solid var(--primary);
+  background: none;
+}

@@ -1,8 +1,8 @@
 "use client";
 import "./App.css";
 import { useEffect, useState } from "react";
-import NavBar from "./components/NavBar";
-import Home from "./components/Home";
+import NavBar from "./components/NavBar/NavBar";
+import Home from "./components/Home/Home";
 // import About from "./components/About";
 // import Contact from "./components/Contact";
 import Loading from "./components/Loading";
@@ -65,7 +65,7 @@ export default App;
 //           <button>CONTACT ME</button>
 //         </div>
 //       </div>
-//       <div className="container-project">
+//       <div className="project-container">
 //         <img
 //           src="src\images\project1.png"
 //           alt="project1"

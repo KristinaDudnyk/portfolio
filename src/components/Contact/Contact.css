@@ -1,0 +1,5 @@
+.contact-container {
+  min-height: 50vh;
+  padding: 60px 0;
+  background: var(--primary);
+}

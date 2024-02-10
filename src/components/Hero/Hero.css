@@ -1,0 +1,29 @@
+.hero-container {
+  width: 100%;
+  background: url("../../../public/images/hero-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 90%;
+  padding: 80px 0 60px 40px;
+}
+
+.hero-info-container {
+  width: 70%;
+  display: grid;
+  row-gap: 10px;
+  padding: 40px 60px;
+  background-color: hsl(238, 100%, 65%, 0.3);
+  color: aliceblue;
+  backdrop-filter: blur(10px);
+  border: 1px solid hsl(0, 0%, 100%, 0.2);
+  border-radius: 10px;
+}
+
+.hero-heading {
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.hero-p {
+  font-size: 28px;
+}

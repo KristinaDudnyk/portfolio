@@ -1,8 +1,9 @@
 // import transition from "../transition";
+import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="" id="contact">
+    <div className="contact-container" id="contact">
       <h1>Contact</h1>
     </div>
   );
