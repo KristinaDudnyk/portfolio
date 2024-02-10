@@ -31,7 +31,6 @@ const App = () => {
     <>
       <AnimatePresence mode="wait">{isLoading && <Loading />}</AnimatePresence>
       <NavBar />
-
       <Home />
     </>
   );
