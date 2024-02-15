@@ -7,6 +7,7 @@
   justify-content: space-between;
   padding: 15px;
   background-color: hsla(238, 100%, 65%, 0.4);
+  text-shadow: 0px 0px 10px rgb(218, 221, 34);
 }
 
 .nav-left-container {
@@ -27,11 +28,11 @@
 }
 
 .nav-left-link-container:hover .nav-link {
-  color: var(--primary-hover);
+  color: rgb(254, 255, 175);
 }
 
 .nav-left-link-container:hover .icon {
-  fill: var(--primary-hover);
+  fill: rgb(254, 255, 175);
 }
 
 .nav-right-container {
@@ -44,5 +45,5 @@
 }
 
 .nav-link:hover {
-  color: var(--primary-hover);
+  color: rgb(254, 255, 175);
 }

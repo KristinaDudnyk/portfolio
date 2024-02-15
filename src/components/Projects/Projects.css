@@ -4,7 +4,7 @@
   justify-items: center;
   row-gap: 60px;
   padding: 60px 0;
-  background: var(--primary);
+  /* background: var(--primary); */
 }
 
 .project-container {
@@ -13,6 +13,13 @@
   grid-template-columns: 0.5fr 0.5fr;
   border-radius: 10px;
   overflow: hidden;
+
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .project-image-container {
@@ -50,6 +57,11 @@
   row-gap: 20px;
   padding: 20px 40px;
   background-color: aliceblue;
+
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
 }
 
 .project-description-container {
@@ -67,11 +79,10 @@
 }
 
 .project-tools-container {
-  /* grid position */
   align-self: end;
   display: flex;
   justify-content: flex-end;
-  gap: 1%;
+  gap: 2%;
 }
 
 .project-tool-button {
@@ -80,10 +91,11 @@
   border-radius: 30px;
   text-align: center;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 12px;
+  font-weight: bold;
   font-family: inherit;
   border: none;
-  color: rgb(74, 63, 140);
-  border: 1px solid var(--primary);
-  background: none;
+  color: rgb(255, 253, 241);
+  background: #825de7;
+  box-shadow: -10px -13px 34px -7px hsl(55, 100%, 94%);
 }

@@ -3,16 +3,6 @@ import "./Projects.css";
 const Projects = () => {
   const projects = [
     {
-      image: "/images/project-deja.png",
-      alt: "project1",
-      name: "DEJA Space Repetition",
-      description:
-        "The final graduation project was a way to demonstrate my knowledge and capability. Under tight time constraint, we formulated an Application concept and architecture. We conducted daily stand-ups and sprint-planning adhering to Agile methodologies. We supported one another to maintain team stability and efficacy. We stayed organized: building a detailed plan and prioritising features. We handled our disagreements professionally during weekly retrospectives and made actionable steps preventing any workflow disruption.",
-      githubLink: "https://fp-deja-review-frontend.onrender.com/",
-      demoLink: "https://fp-deja-review-frontend.onrender.com/",
-      tools: ["React.js", "HTML", "CSS", "Supabase", "NODE.js"],
-    },
-    {
       image: "/images/project-tbm.png",
       alt: "project2",
       name: "TheBigMouth",
@@ -22,6 +12,17 @@ const Projects = () => {
       demoLink: "https://fp-deja-review-frontend.onrender.com/",
       tools: ["React.js", "HTML", "CSS", "Supabase", "NODE.js"],
     },
+    {
+      image: "/images/project-deja.png",
+      alt: "project1",
+      name: "DEJA Space Repetition",
+      description:
+        "The final graduation project was a way to demonstrate my knowledge and capability. Under tight time constraint, we formulated an Application concept and architecture. We conducted daily stand-ups and sprint-planning adhering to Agile methodologies. We supported one another to maintain team stability and efficacy. We stayed organized: building a detailed plan and prioritising features. We handled our disagreements professionally during weekly retrospectives and made actionable steps preventing any workflow disruption.",
+      githubLink: "https://fp-deja-review-frontend.onrender.com/",
+      demoLink: "https://fp-deja-review-frontend.onrender.com/",
+      tools: ["React.js", "HTML", "CSS", "Supabase", "NODE.js"],
+    },
+
     {
       image: "/images/project-mp.png",
       alt: "project1",
@@ -49,14 +50,16 @@ const Projects = () => {
                 className="project-link"
                 href={project.demoLink}
                 rel="noreferrer"
-                target="_blank">
+                target="_blank"
+              >
                 demo
               </a>
               <a
                 className="project-link"
                 href={project.githubLink}
                 rel="noreferrer"
-                target="_blank">
+                target="_blank"
+              >
                 code
               </a>
             </div>

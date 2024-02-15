@@ -11,11 +11,20 @@ const Hero = () => {
           I'm Kristina
         </h1>
         <p className="hero-p">
-          A Software Developer based in London / Cambridge.
+          A <span className="hero-span">Software Developer</span> based in
+          London / Cambridge.
           <br />
           Clean, elegant and efficient code that I write, makes me genuinely
           happy!
         </p>
+        <div className="hero-image-container"></div>
+        <div className="hero-image-container">
+          <img
+            className="hero-image"
+            src="/images/image-of-me.jpg"
+            alt="here should be me"
+          />
+        </div>
       </div>
     </div>
   );
