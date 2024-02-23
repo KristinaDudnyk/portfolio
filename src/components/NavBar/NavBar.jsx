@@ -5,7 +5,9 @@ const NavBar = () => {
     <nav className="nav-container">
       <div className="nav-left-container">
         <div className="nav-left-link-container">
-          <a className="nav-link">kristina.dudnyk20@gmail.com</a>
+          <a href="/" className="nav-link">
+            kristina.dudnyk20@gmail.com
+          </a>
           <svg
             className="icon"
             viewBox="0 -960 960 960"
