@@ -44,12 +44,12 @@
 
 .project-link {
   padding: 5px 10px;
-  background: var(--primary);
+  background: #825de7;
   border-radius: 30px;
 }
 
 .project-link:hover {
-  background: var(--primary-hover);
+  color: rgb(255, 255, 143);
 }
 
 .project-info-container {
@@ -75,7 +75,10 @@
 }
 
 .project-description {
-  color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 15%);
+  font-size: 100%;
+  line-height: 1.8;
+  font-weight: 500;
 }
 
 .project-tools-container {
@@ -98,4 +101,7 @@
   color: rgb(255, 253, 241);
   background: #825de7;
   box-shadow: -10px -13px 34px -7px hsl(55, 100%, 94%);
+}
+.project-tool-button:hover {
+  color: rgb(255, 255, 129);
 }

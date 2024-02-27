@@ -7,18 +7,19 @@ const Projects = () => {
       alt: "project2",
       name: "TheBigMouth",
       description:
-        "I was given a fantastic opportunity to learn and apply modern Cloud Architecture and DevOps principles on a project for the charity organization TheBigHouse as part of a six-person team led by a professional Project Manager and Tech Lead. We harnessed the principles of DevOps, incorporating cultural philosophies such as collaboration, shared responsibility, and continuous learning. Using IAM, S3, DynamoDB, API Gateway, and Lambda. This approach significantly improved our developer’s ability to rapidly iterate and deliver the client a product that scaled effortlessly.",
-      githubLink: "https://fp-deja-review-frontend.onrender.com/",
-      demoLink: "https://fp-deja-review-frontend.onrender.com/",
-      tools: ["React.js", "HTML", "CSS", "Supabase", "NODE.js"],
+        "The demo version of the video streaming platform was built for the external client, the charity organization TheBigHouse Theater. The platform allows users to check the latest performances of the art team and share their own video content with the community. The website is hosted on AWS and supported by IAM, S3, DynamoDB, API Gateway, and Lambda services. ",
+      githubLink: "https://github.com/Bedi06/thebigmouth/tree/main/src",
+      demoLink: "https://www.hackyourfuture.co.uk/",
+      tools: ["Auth0", "AWS", "React.js", "HTML", "CSS", "MUI"],
     },
     {
       image: "/images/project-deja.png",
       alt: "project1",
-      name: "DEJA Space Repetition",
+      name: "DEJA Spaced Repetition",
       description:
-        "The final graduation project was a way to demonstrate my knowledge and capability. Under tight time constraint, we formulated an Application concept and architecture. We conducted daily stand-ups and sprint-planning adhering to Agile methodologies. We supported one another to maintain team stability and efficacy. We stayed organized: building a detailed plan and prioritising features. We handled our disagreements professionally during weekly retrospectives and made actionable steps preventing any workflow disruption.",
-      githubLink: "https://fp-deja-review-frontend.onrender.com/",
+        "The team project. Nurtured from an idea to a real fully working web app. DEJA helps students organise their learning journey and helps build long-term memory through a system called spaced repetition. Spaced repetition is an evidence-based learning technique has been proven to increase the rate of learning.",
+      githubLink:
+        "https://github.com/Abubakar-Meigag/FinalProject-DejaReview-teamUnity-Ldn10",
       demoLink: "https://fp-deja-review-frontend.onrender.com/",
       tools: ["React.js", "HTML", "CSS", "Supabase", "NODE.js"],
     },
@@ -28,10 +29,10 @@ const Projects = () => {
       alt: "project1",
       name: "MyPlayList",
       description:
-        "The playlist app allows users to create and manage playlists by adding videos using their URLs. Users can conveniently gather and organize videos from various sources by simply inputting the URLs into the app. The app provides a user-friendly interface for creating and editing playlists, enabling users to customize their playlists according to their preferences. With the ability to add videos from different sources, the app offers flexibility and convenience.",
+        "I’m personally using this app to listen to music when I’m going to work. For free, avoiding ADs from YouTube. The most loved feature is that the video will continue to play with a turned-down screen :D The database is hosted on SUPABASE, and the server side is built as a RESTful API on NODE.js.",
       githubLink: "https://fp-deja-review-frontend.onrender.com/",
-      demoLink: "https://fp-deja-review-frontend.onrender.com/",
-      tools: ["React.js", "HTML", "CSS", "Supabase", "NODE.js"],
+      demoLink: "https://main--kristinadudnyk-fullstack-project.netlify.app/",
+      tools: ["React.js", "HTML", "CSS", "Supabase", "NODE.js", "REST API"],
     },
   ];
   return (
@@ -52,7 +53,7 @@ const Projects = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                demo
+                DEMO
               </a>
               <a
                 className="project-link"
@@ -60,7 +61,7 @@ const Projects = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                code
+                CODE
               </a>
             </div>
           </div>
